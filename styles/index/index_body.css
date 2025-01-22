@@ -1,0 +1,93 @@
+body{
+    font-family: sans-serif;
+}
+
+.body_body{
+    margin-top: 50px;
+}
+
+.body_title{
+    text-align: center;
+    font-size: 32px;
+}
+
+.body_info{
+    text-align: center;
+    font-size: 16px;
+}
+
+.recommended_materials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.practice_sticks_title, .practice_pads_title{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.practice_sticks_list, .practice_pads_list{
+    list-style-type: none;
+}
+
+.stick_link1, .stick_link2, .stick_link3,
+.pad_link1, .pad_link2, .pad_link3
+{
+    color: black;
+    text-decoration: none;
+}
+
+.stick_link1:hover, .stick_link2:hover, .stick_link3:hover,
+.pad_link1:hover, .pad_link2:hover, .pad_link3:hover
+{
+    color: #29748d;
+}
+
+.stick_link1:active, .stick_link2:active, .stick_link3:active,
+.pad_link1:active, .pad_link2:active, .pad_link3:active
+{
+    color: #29748d;
+    text-decoration: none;
+}
+
+.link1{
+    display: inline;
+}
+
+.body_footer{
+    border-top: 2px solid black;
+}
+
+.footer_contact{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.footer_contact_title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer_contact_info_list{
+    margin-top: 10px;
+}
+
+.footer_contact_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.footer_contact_info_social{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+}
+
+.footer_linkedin_icon, .footer_email_icon{
+    cursor: pointer;
+}
+
