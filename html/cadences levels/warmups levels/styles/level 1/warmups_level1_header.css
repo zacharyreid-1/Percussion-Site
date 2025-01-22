@@ -1,0 +1,38 @@
+.logo_title{
+    display: grid;
+    grid-template-columns: 1px 1fr;
+}
+
+.header_title{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.header_buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header_sheet_music_button, .header_warmups_button, 
+.header_cadences_button, .header_grooves_button, 
+.header_breaks_button
+{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #51B9DB;
+    font-size: 20px;
+}
+
+.header_sheet_music_button:hover ,.header_warmups_button:hover, 
+.header_cadences_button:hover, .header_grooves_button:hover, 
+.header_breaks_button:hover
+{
+    cursor: pointer;
+    background-color: #29748d;
+    transform: translateY(-10px);
+}
